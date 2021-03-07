@@ -19,7 +19,7 @@ export default function Navbaar() {
             <div class="line"></div>
           </div>
           <nav class="nav-links" id="nav-links">
-            <Link to="/Covid-19" class="nav-link ">
+            <Link to="/" class="nav-link ">
               Home
             </Link>
             {/* <a href="#Contagion" class="nav-link">

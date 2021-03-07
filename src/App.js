@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Route ,HashRouter } from "react-router-dom";
 
 import "./App.css";
 
@@ -19,14 +19,14 @@ function App() {
   };
 
   return (
-    <Router>
+    <HashRouter basename="/">
       <div className="App">
         <Navbaar />
-        <Route exact path="/Covid-19" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/Tracker" component={Tracker} />
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
