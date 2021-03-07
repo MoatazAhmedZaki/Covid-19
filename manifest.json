@@ -1,22 +1,12 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "C-19",
+  "name": "Covid-19",
   "icons": [
     {
-      "src": "here",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "./covid-logo.ico",
       "type": "image/x-icon"
-    },
-    {
-      "src": "here",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "here",
-      "type": "image/png",
-      "sizes": "512x512"
     }
+    
   ],
   "start_url": ".",
   "display": "standalone",
